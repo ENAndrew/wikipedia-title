@@ -27,6 +27,15 @@ strong {
 
 em, small {
     font-size: 75%;
+    color: black;
+}
+
+a, br{
+    text-decoration: none;
+}
+
+strong:hover {
+    text-decoration: underline;
 }
 
 .row {
