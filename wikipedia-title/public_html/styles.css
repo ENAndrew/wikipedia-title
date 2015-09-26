@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    height: 338px;
+    width: 546px;
+    background-image: url(//upload.wikimedia.org/wikipedia/meta/0/08/Wikipedia-logo-v2_1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+strong, em, small {
+    font-family: sans-serif;
+}
+
+strong {
+    color: blue;
+}
+
+em, small {
+    font-size: 75%;
+}
+
+.row {
+    width: 100%;
+    height: 70px;
+}
+
+.linkBox {
+    display: inline-block;
+    text-align: center;
+    width: 156px;
+}
+
+#eng, #germ, #russ, #chin, #portu {
+    float: left;
+}
+
+#espan, #japan, #french, #ital, #polish {
+    float: right;
+}
+
+#eng, #portu {
+    margin-left: 75px;
+}
+
+#espan, #polish {
+    margin-right: 75px;
+}
+
+#germ, #chin {
+    margin-left: 30px;
+}
+
+#japan, #ital {
+    margin-right: 30px;
+}
